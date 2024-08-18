@@ -64,7 +64,8 @@ class LeerDatos:
         else:
             print("Error: Tipo de archivo no soportado. Se esperaba 'csv'.")
         return self.df
-´´´
+```
+
 # Generacion de un metodo de filtrado
 Este metodo es especialmente util para filtrar columnas de un DatFrame usando multiple etiquetas de filas
 ```python
@@ -123,3 +124,5 @@ Este metodo es especialmente util para filtrar columnas de un DatFrame usando mu
         resultado = datos[filtro]
         self.df = resultado
         return self.df
+```
+
